@@ -1,0 +1,128 @@
+/*
+  Break at 700px, and 960px
+*/
+body {
+  background-color: orange;
+}
+@media (max-width:699px) {
+  header {
+    width:100%;
+  }
+  header .container{
+    height: 100px;
+  }
+  header #logo {
+    float:left;
+    height: 100px;
+    width: 22%;
+    background-color: lightpink;
+  }
+  header #banner {
+    /*float:left;*/
+    /*width: 77%;*/
+    height: 100px;
+    background-color: pink;
+  }
+  header nav ul {
+    float:left;
+    margin-left:-40px;
+    margin-top:0px;
+    width: 100%;
+  }
+  header nav ul li{
+    float:left;
+    width:33.333%;
+    height: 45px;
+    list-style:none;
+  }
+}
+@media(min-width:700px) and (max-width: 959px) {
+  header {
+    width:100%;
+  }
+  header .container{
+    height: 100px;
+  }
+  header #logo {
+    float:left;
+    height: 100px;
+    width: 22%;
+    background-color: lightpink;
+  }
+  header #banner {
+    /*float:left;*/
+    /*width: 77%;*/
+    height: 100px;
+    background-color: pink;
+  }
+  header nav ul {
+    float:left;
+    margin-left:-40px;
+    margin-top:0px;
+    width: 100%;
+  }
+  header nav ul li{
+    float:left;
+    width:16.6666%;
+    height: 100px;
+    list-style:none;
+  }
+}
+@media(min-width: 960px) {
+  header {
+    width:100%;
+  }
+  header .container{
+    height: 100px;
+    width: 50%
+  }
+  header #logo {
+    float:left;
+    height: 100px;
+    width: 22%;
+    background-color: lightpink;
+  }
+  header #banner {
+    /*float:left;*/
+    /*width: 77%;*/
+    /*float:right;*/
+    height: 100px;
+    background-color: pink;
+  }
+  header nav {
+    float:right;
+    width: 100%;
+  }
+  header nav ul {
+    float:right;
+    margin-left:-40px;
+    margin-top:0px;
+    width: 50%;
+    margin-top:-100px;
+  }
+  header nav ul li{
+    float:left;
+    width:33.333%;
+    height: 50px;
+    list-style:none;
+  }
+}
+
+#a {
+  background-color: lightblue;
+}
+#b {
+  background-color: lightgreen;
+}
+#c {
+  background-color: lightgrey;
+}
+#d {
+  background-color: blue;
+}
+#e {
+  background-color: green;
+}
+#f {
+  background-color: grey;
+}
